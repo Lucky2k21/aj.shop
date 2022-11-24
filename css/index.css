@@ -299,3 +299,7 @@ blockquote{
     cursor: pointer;
     transition: .5s;
 }
+.map{
+    object-fit: cover;
+    width:auto;
+}
