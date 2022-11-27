@@ -15,10 +15,6 @@
 </head>
 <body >
    <!--coupon-->
-
-
-
-
 <div id="coupon">
    <div class="mainspace">
      <div class="popupcontent">
@@ -58,7 +54,9 @@
         </form>
         <button class="btn"  title="sign up!"><i class="fa-solid fa-user"></i></button>
         <button class="btn"  title="cart!"><i class="fa-solid fa-bag-shopping"></i></button>
-        <span><i class="fa-solid fa-sun" id="icon" style="color:var(--third-color)"></i></span>
+        <button><i class="fa-solid fa-sun" id="icon" style="color:var(--third-color)"></i></button>
+        <button onClick="geolocation()"><i class="fa-solid fa-location-dot"><p  id="weather"></p></i></button>
+
       </div>
         </div>
     </nav>
@@ -402,9 +400,7 @@
 
 <script src="script/home.js"></script>
 <script>
-
-
-   window.onload = () => {
+window.onload = () => {
       document.querySelector('#coupon').style.display = 'flex';
 
     };
